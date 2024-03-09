@@ -11,7 +11,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>4학년_3_48p_난산이좋아_20240308</title>
+<title>4학년_3_48p_난산이좋아_20240310</title>
 <!-- write your code here -->
 <style>
   #animation_container, #_preload_div_ {
@@ -406,6 +406,27 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-7.8,-3.8,143,54.599999999999994);
+(lib.play_bg = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// 레이어_2
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#444444").s().p("AizC0QhKhLAAhpQAAhpBKhKQBLhLBoABQBqgBBKBLQBKBKAABpQAABphKBLQhKBKhqAAQhoAAhLhKgAg+hmQgQAJAAATIAACWQAAASAQAJQAHAEAJAAQAJAAAHgEICChMQAQgIAAgTQAAgSgQgJIiChLQgIgFgIAAQgIAAgIAFg");
+	this.shape.setTransform(48.325,48.75);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AhRBnQgPgJAAgSIAAiWQAAgTAQgJQAQgKAPAKICCBMQAQAJAAARQAAATgQAJIiCBLQgHAFgJAAQgIAAgIgFg");
+	this.shape_1.setTransform(50.175,48.725);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this._renderFirstFrame();
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(22.9,23.3,50.9,50.900000000000006);
 (lib.play = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -568,7 +589,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-545,39.9,70,70);
 // stage content:
-(lib._4학년_3_48p_난산이좋아_20240308 = function(mode,startPosition,loop,reversed) {
+(lib._4학년_3_48p_난산이좋아_20240310 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -592,34 +613,44 @@ if (reversed == null) { reversed = false; }
 		/*메뉴 네비게이션*/
 		_this.listen_btn.on('click', function () {
 			_this.gotoAndStop('노래듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.expert_btn.on('click', function () {
 			_this.gotoAndStop('전문가창');
+			_this.play_btn.visible = true;
 		});
 		_this.listen2_btn.on('click', function () {
 			_this.gotoAndStop('반주듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.singAlong_btn.on('click', function () {
 			_this.gotoAndStop('따라부르');
+			_this.play_btn.visible = true;
 		});
 		/*플레이컨트롤*/
 		_this.play_btn.on('click', function () {
 			_this.play();
+			_this.play_btn.visible = false;
 		});
 		_this.pause_btn.on('click', function () {
 			_this.stop();
+			_this.play_btn.visible = true;
 		});
 		_this.stop1_btn.on('click', function () {
 			_this.gotoAndStop('노래듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.stop2_btn.on('click', function () {
 			_this.gotoAndStop('전문가창');
+			_this.play_btn.visible = true;
 		});
 		_this.stop4_btn.on('click', function () {
 			_this.gotoAndStop('반주듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.stop3_btn.on('click', function(){
 			_this.gotoAndStop('따라부르');
+			_this.play_btn.visible = true;
 		});
 	}
 	this.frame_753 = function() {
@@ -2985,6 +3016,8 @@ if (reversed == null) { reversed = false; }
 	this.shape_541.setTransform(181.3721,443.4929,2.4309,2.431);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_513,p:{scaleY:2.4311,y:443.5063}},{t:this.shape_512,p:{scaleY:2.4311,y:443.5215}},{t:this.shape_511,p:{scaleY:2.4311,y:444.1293}},{t:this.shape_510,p:{scaleY:2.4311,y:444.5547}},{t:this.shape_509,p:{scaleY:2.4311,y:444.1293}},{t:this.shape_508,p:{scaleY:2.4311,y:443.5063}},{t:this.shape_507,p:{scaleY:2.4311,y:444.0077}},{t:this.shape_506,p:{scaleY:2.4311,y:444.1293}},{t:this.shape_505,p:{scaleY:2.4311,y:444.5547}},{t:this.shape_504,p:{scaleY:2.4311,y:442.7922}},{t:this.shape_503,p:{scaleY:2.4311,y:444.1293}},{t:this.shape_502,p:{scaleY:2.4311,y:643.4407}},{t:this.shape_501,p:{scaleY:2.4311,y:644.636}},{t:this.shape_500,p:{scaleY:2.4311,y:644.0485}},{t:this.shape_499,p:{scaleY:2.4311,y:643.927}},{t:this.shape_498,p:{scaleY:2.4311,y:644.1093}},{t:this.shape_497,p:{scaleY:2.4311,y:644.2106}},{t:this.shape_496,p:{scaleY:2.4311,y:643.3921}},{t:this.shape_495,p:{scaleY:2.4311,y:644.0282}},{t:this.shape_494,p:{scaleY:2.4311,y:644.4739}},{t:this.shape_493,p:{scaleY:2.4311,x:1041.8369,y:642.7114}},{t:this.shape_492,p:{scaleY:2.4311,y:644.1093}}]}).to({state:[{t:this.shape_541},{t:this.shape_540},{t:this.shape_539},{t:this.shape_538},{t:this.shape_493,p:{scaleY:2.431,x:519.7239,y:442.2166}},{t:this.shape_537},{t:this.shape_536},{t:this.shape_535},{t:this.shape_534},{t:this.shape_533},{t:this.shape_532},{t:this.shape_531},{t:this.shape_530},{t:this.shape_529},{t:this.shape_528},{t:this.shape_527},{t:this.shape_526},{t:this.shape_525},{t:this.shape_524},{t:this.shape_523},{t:this.shape_522},{t:this.shape_521},{t:this.shape_520},{t:this.shape_519},{t:this.shape_518},{t:this.shape_517},{t:this.shape_516},{t:this.shape_515},{t:this.shape_514}]},346).to({state:[]},408).to({state:[{t:this.shape_513,p:{scaleY:2.431,y:443.5033}},{t:this.shape_512,p:{scaleY:2.431,y:443.5185}},{t:this.shape_511,p:{scaleY:2.431,y:444.1263}},{t:this.shape_510,p:{scaleY:2.431,y:444.5517}},{t:this.shape_509,p:{scaleY:2.431,y:444.1263}},{t:this.shape_508,p:{scaleY:2.431,y:443.5033}},{t:this.shape_507,p:{scaleY:2.431,y:444.0047}},{t:this.shape_506,p:{scaleY:2.431,y:444.1263}},{t:this.shape_505,p:{scaleY:2.431,y:444.5517}},{t:this.shape_504,p:{scaleY:2.431,y:442.7892}},{t:this.shape_503,p:{scaleY:2.431,y:444.1263}},{t:this.shape_502,p:{scaleY:2.431,y:643.4361}},{t:this.shape_501,p:{scaleY:2.431,y:644.6314}},{t:this.shape_500,p:{scaleY:2.431,y:644.0439}},{t:this.shape_499,p:{scaleY:2.431,y:643.9223}},{t:this.shape_498,p:{scaleY:2.431,y:644.1046}},{t:this.shape_497,p:{scaleY:2.431,y:644.2059}},{t:this.shape_496,p:{scaleY:2.431,y:643.3875}},{t:this.shape_495,p:{scaleY:2.431,y:644.0236}},{t:this.shape_494,p:{scaleY:2.431,y:644.4693}},{t:this.shape_493,p:{scaleY:2.431,x:1041.8369,y:642.7068}},{t:this.shape_492,p:{scaleY:2.431,y:644.1046}}]},56).to({state:[{t:this.shape_541},{t:this.shape_540},{t:this.shape_539},{t:this.shape_538},{t:this.shape_493,p:{scaleY:2.431,x:519.7239,y:442.2166}},{t:this.shape_537},{t:this.shape_536},{t:this.shape_535},{t:this.shape_534},{t:this.shape_533},{t:this.shape_532},{t:this.shape_531},{t:this.shape_530},{t:this.shape_529},{t:this.shape_528},{t:this.shape_527},{t:this.shape_526},{t:this.shape_525},{t:this.shape_524},{t:this.shape_523},{t:this.shape_522},{t:this.shape_521},{t:this.shape_520},{t:this.shape_519},{t:this.shape_518},{t:this.shape_517},{t:this.shape_516},{t:this.shape_515},{t:this.shape_514}]},565).to({state:[{t:this.shape_513,p:{scaleY:2.431,y:443.5033}},{t:this.shape_512,p:{scaleY:2.431,y:443.5185}},{t:this.shape_511,p:{scaleY:2.431,y:444.1263}},{t:this.shape_510,p:{scaleY:2.431,y:444.5517}},{t:this.shape_509,p:{scaleY:2.431,y:444.1263}},{t:this.shape_508,p:{scaleY:2.431,y:443.5033}},{t:this.shape_507,p:{scaleY:2.431,y:444.0047}},{t:this.shape_506,p:{scaleY:2.431,y:444.1263}},{t:this.shape_505,p:{scaleY:2.431,y:444.5517}},{t:this.shape_504,p:{scaleY:2.431,y:442.7892}},{t:this.shape_503,p:{scaleY:2.431,y:444.1263}},{t:this.shape_502,p:{scaleY:2.431,y:643.4361}},{t:this.shape_501,p:{scaleY:2.431,y:644.6314}},{t:this.shape_500,p:{scaleY:2.431,y:644.0439}},{t:this.shape_499,p:{scaleY:2.431,y:643.9223}},{t:this.shape_498,p:{scaleY:2.431,y:644.1046}},{t:this.shape_497,p:{scaleY:2.431,y:644.2059}},{t:this.shape_496,p:{scaleY:2.431,y:643.3875}},{t:this.shape_495,p:{scaleY:2.431,y:644.0236}},{t:this.shape_494,p:{scaleY:2.431,y:644.4693}},{t:this.shape_493,p:{scaleY:2.431,x:1041.8369,y:642.7068}},{t:this.shape_492,p:{scaleY:2.431,y:644.1046}}]},778).to({state:[{t:this.shape_541},{t:this.shape_540},{t:this.shape_539},{t:this.shape_538},{t:this.shape_493,p:{scaleY:2.431,x:519.7239,y:442.2166}},{t:this.shape_537},{t:this.shape_536},{t:this.shape_535},{t:this.shape_534},{t:this.shape_533},{t:this.shape_532},{t:this.shape_531},{t:this.shape_530},{t:this.shape_529},{t:this.shape_528},{t:this.shape_527},{t:this.shape_526},{t:this.shape_525},{t:this.shape_524},{t:this.shape_523},{t:this.shape_522},{t:this.shape_521},{t:this.shape_520},{t:this.shape_519},{t:this.shape_518},{t:this.shape_517},{t:this.shape_516},{t:this.shape_515},{t:this.shape_514}]},347).wait(409));
 	// bg
+	this.instance_5 = new lib.play_bg("synched",0);
+	this.instance_5.setTransform(562.5,750.25,1,1,0,0,0,48.3,48.8);
 	this.shape_542 = new cjs.Shape();
 	this.shape_542.graphics.f("#FFFFFF").s().p("EAbGAwvQh5AAhWhWQhWhWAAh6QAAh6hWhWQhWhVh6AAMgjnAAAQh5AAhWBVQhWBWAAB6QAAB6hWBWQhWBWh6AAMg7mAAAQjsAAioioQininAAjsMAAAhPnQAAjsCnioQCoinDsAAMCs7AAAQDsAACoCnQCnCoAADsMAAABPnQAADsinCnQioCojsAAg");
 	this.shape_542.setTransform(639.325,457.45);
@@ -2997,7 +3030,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_545 = new cjs.Shape();
 	this.shape_545.graphics.f("#ED1C24").s().p("At7FeIAAiUIPPAAIAAonIPQAAIAAK7gAwjFeIAAq7ICoAAIAAInIAACUgAt7DKIAAonIPPAAIAAIngAt7DKgAt7ldg");
 	this.shape_545.setTransform(1097.175,248.575);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_545},{t:this.shape_544},{t:this.shape_543},{t:this.shape_542}]}).wait(2909));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_545},{t:this.shape_544},{t:this.shape_543},{t:this.shape_542},{t:this.instance_5}]}).wait(2909));
 	this._renderFirstFrame();
 }).prototype = p = new lib.AnMovieClip();
 p.nominalBounds = new cjs.Rectangle(640.5,253.2,640,1450.3999999999999);
@@ -3145,7 +3178,7 @@ function handleComplete(evt,comp) {
 	var preloaderDiv = document.getElementById("_preload_div_");
 	preloaderDiv.style.display = 'none';
 	canvas.style.display = 'block';
-	exportRoot = new lib._4학년_3_48p_난산이좋아_20240308();
+	exportRoot = new lib._4학년_3_48p_난산이좋아_20240310();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
